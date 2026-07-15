@@ -1,5 +1,7 @@
 select(2, ...) 'aux'
 
+_G.CASTING_BAR_ALPHA_STEP = _G.CASTING_BAR_ALPHA_STEP or 0.05
+
 local post = require 'aux.tabs.post'
 
 function M.print(...)
